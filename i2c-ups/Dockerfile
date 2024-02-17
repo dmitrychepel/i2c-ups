@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=hassioaddons/base:latest
 FROM $BUILD_FROM
 RUN apk add --no-cache python3 py3-pip
 #RUN pip3 install smbus2
